@@ -716,7 +716,7 @@ declare module 'leaflet' {
       | 'popupPane'
       | string;
 
-    interface GlobalOptions extends DrawModeOptions, EditModeOptions {
+    interface GlobalOptions extends DrawModeOptions, EditModeOptions, MapOptions {
       /** Add the created layers to a layergroup instead to the map. */
       layerGroup?: L.Map | L.LayerGroup;
 
